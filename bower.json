@@ -1,0 +1,23 @@
+{
+  "name": "sos",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Noah McCarn and David Christ"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nmccarn/SoS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

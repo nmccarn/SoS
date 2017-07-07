@@ -1,0 +1,28 @@
+body {
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
+
+.body-content {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-top: 50px;
+}
+
+.navbar-nav > li {
+    display:inline-block;
+}
+
+.breadcrumb {
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+#userProfileMini {
+    margin-top: 15px;
+}
+
+#forgot-password-link {
+    font-size: small;
+    padding-top: 5px;
+}

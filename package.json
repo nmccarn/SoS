@@ -1,0 +1,25 @@
+{
+  "name": "sos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmccarn/SoS.git"
+  },
+  "author": "Noah McCarn and David Christ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmccarn/SoS/issues"
+  },
+  "homepage": "https://github.com/nmccarn/SoS#readme",
+  "dependencies": {
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}

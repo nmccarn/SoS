@@ -1,0 +1,32 @@
+<html ng-app="sos">
+    <head>
+        <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+        <link href="/app/css/site.css" rel="stylesheet" />
+
+        <!-- Dependencies -->
+        <script src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/angular/angular.min.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- main app file -->
+        <script src="/app/js/sos.js"></script>
+
+        <!-- services -->
+        <script src="/app/js/services/sosUserService.js"></script>
+
+        <!-- menu code -->
+        <script src="/app/components/sosMenu/sosMenu.controller.js"></script>
+        <script src="/app/components/sosMenu/sosMenu.directive.js"></script>
+    
+        <!-- user account code -->
+        <script src="/app/components/sosUserAccount/sosUserAccount.controller.js"></script>
+        <script src="/app/components/sosUserAccount/sosUserAccount.directive.js"></script>
+    </head>
+    <body>
+        <sos-menu></sos-menu>
+        <div class="body-content">
+            index
+        </div>
+    </body>
+</html>
